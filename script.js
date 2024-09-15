@@ -43,8 +43,9 @@ function loadingAnimation() {
     tl.from("#nav", {
         opacity: 0
     })
-    tl.from("#hero1 h1,#hero2 h1,#hero3 h2,#hero4 h1", {
-        y: 100,
+    tl.from("#hero1 h1,#hero2 h1,#hero3 .hr3,#hero4 h1", {
+        y: 115,
+        delay:0.2,
         stagger: 0.2
     })
 }
