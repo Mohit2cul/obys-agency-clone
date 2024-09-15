@@ -47,6 +47,12 @@ html, body {
     gap: 1vw;
 }
 
+.hr3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #line1-part1 h5, #line1-part1 h6 {
     font-size: 3vw;
     font-weight: 100;
